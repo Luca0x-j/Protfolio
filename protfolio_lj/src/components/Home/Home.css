@@ -1,0 +1,107 @@
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 200px 60px 300px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.bg-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: #021937;
+    border-bottom-right-radius: 200px;
+    z-index: -1;
+}
+
+.home-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-left {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.home-left p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.home-left h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.home-left h3 {
+  font-size: 20px;
+  width: 300px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a svg {
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.home-right {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  margin-top: 20px;
+}
+
+.photo-box {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px 0px 60px 0px;
+  font-weight: bold;
+  z-index: 111;
+}
+
+.photo-box2 {
+  position: absolute;
+  right: 24%;
+  top: 5%;
+  width: 350px;
+  height: 350px;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px 0px 60px 0px;
+  border: 2px solid #ccc;
+}

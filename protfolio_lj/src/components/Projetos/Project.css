@@ -1,0 +1,163 @@
+.projetos-box {
+    background-color: #101010;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 350px 60px 350px;
+    color: #ffffff;
+}
+
+.projetos-box .box {
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.projetos-box .box .titulo {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.projetos-box .box .frase {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.projetos-box .box .frase .blue-frase {
+    color: #0076e4;
+}
+
+.projetos-box .box-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projetos-box .box-projetos .box-inform {
+    width: 440px;
+    height: 410px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 7px 7px 10px #000000;
+    transition: all .5s ease;
+}
+
+.projetos-box .box-projetos .box-inform:hover {
+    animation: rotacao 1s ease;
+}
+
+@keyframes rotacao {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(4deg);
+    }
+
+    50% {
+        transform: rotate(-6des);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.projetos-box .box-projetos .box-inform .img-projeto {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-color: #1E1E1E;
+    border: solid 1px #1E1E1E;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.projetos-box .box-projetos .box-inform .descricao {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 30px;
+    margin-right: 13px;
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+
+.projetos-box .box-projetos .box-inform .divTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projetos-box .box-projetos .box-inform .divTitulo .name-projeto {
+    color: #000000;
+    font-weight: 700;
+    margin-right: 83px;
+}
+
+.projetos-box .box-projetos .box-inform .divTitulo .tec {
+    margin-left: 20px;
+}
+
+.divTitulo svg,
+.divTitulo .text-icon {
+  font-size: 25px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.divTitulo .react {
+    color: #34e4ff;
+    margin-right: 10px;
+}
+
+.divTitulo .bootstrap {
+    color: #be29fd;   
+}
+
+.projetos-box .box-projetos .box-inform .divImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projetos-box .box-projetos .box-inform .divImage .github {
+    border: none;
+    padding: 10px 50px;
+    background-color: #1e1e1e;
+    box-shadow: 3px 3px 5px #686868;
+    color: #f0f8ff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+.projetos-box .box-projetos .box-inform .divImage .github:hover {
+    background-color: #494949;
+}
+
+.projetos-box .box-projetos .box-inform .divImage .deploy {
+    border: none;
+    padding: 10px 50px;
+    background-color: #1e1e1e;
+    box-shadow: 3px 3px 5px #686868;
+    color: #f0f8ff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px; 
+    transition: all .5s ease;
+}
+
+.projetos-box .box-projetos .box-inform .divImage .deploy:hover {
+    background-color: #494949;
+}

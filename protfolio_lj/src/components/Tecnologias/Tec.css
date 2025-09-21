@@ -1,0 +1,30 @@
+.tech-stack {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101010;
+  padding: 30px 100px;
+  gap: 30px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.tech-stack svg,
+.tech-stack .text-icon {
+  font-size: 40px;
+  color: #aaa;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.tech-stack svg:hover,
+.tech-stack .text-icon:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+.text-icon {
+  font-family: monospace;
+  font-weight: bold;
+}
