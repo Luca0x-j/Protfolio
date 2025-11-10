@@ -10,6 +10,8 @@
 }
 
 .projetos-box .box {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 400px;
     height: 100px;
@@ -123,6 +125,38 @@
 .divTitulo .bootstrap {
     color: #be29fd;   
 }
+
+.divTitulo .html {
+    color: #ff5722;
+    margin-right: 10px;
+}
+
+.divTitulo .javascript {
+    color: #fffb22;
+    margin-left: 6px;
+}
+
+.divTitulo .css {
+    color: #2965f1;   
+}
+
+.divTitulo .tailwind {
+    color: #34e4ff;
+    margin-left: 10px;
+}
+
+.divTitulo .express {
+    color: rgb(0, 0, 0);
+    margin-left: 3px;
+}
+
+.divTitulo .mysql {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+
+
 
 .projetos-box .box-projetos .box-inform .divImage {
     display: flex;

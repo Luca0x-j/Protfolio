@@ -10,10 +10,21 @@
 }
 
 .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #101010;
     width: 450px;
     height: 450px;
     border-radius: 200px 16px 190px 115px;
+}
+
+.box .img-sobre {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    background-color: #f3f3f3;
+    opacity: 0.5;
 }
 
 .sobre .texts {

@@ -105,3 +105,12 @@
   border-radius: 60px 0px 60px 0px;
   border: 2px solid #ccc;
 }
+
+
+.imgPerfil {
+    width: 350px;
+    height: 350px;
+    border-radius: 60px 0px 60px 0px;
+    border: 1px solid #101010;
+    object-fit: cover;
+}

@@ -13,14 +13,14 @@ const Home = () => {
             <h3>"Na programação, o erro é um 
                 mestre disfarçado ensinando o caminho certo."</h3>
             <div className="social-icons">
-                <a href="#github" target='_blank' rel='noreferrer'><FaGithub/></a>
+                <a href="https://github.com/Luca0x-j" target='_blank' rel='noreferrer'><FaGithub/></a>
                 <a href="#linkedin" target='_blank' rel='noreferrer'><FaLinkedin/></a>
             </div>
         </div>
 
         <div className="home-right">
             <div className="photo-box">
-                <p>Foto</p>
+                <img src="../public/img/perfil.jpg" alt="Foto Perfil" className='imgPerfil'/>
             </div>
             <div className="photo-box2">
 
